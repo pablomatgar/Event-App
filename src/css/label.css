@@ -1,0 +1,23 @@
+.label_text {
+    background-color: #3A3A39 !important;
+    width: 60%;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -10px;
+    left: 20%;
+    z-index: 1;
+}
+
+.label {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid;
+    border-color: #3A3A39;
+    position: relative;
+}

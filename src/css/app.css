@@ -1,0 +1,145 @@
+/* iOS Cordova Tweak */
+.device-cordova.device-ios {
+  height: 100vh;
+}
+
+/* Your app custom styles here */
+@font-face {
+  font-family: Roboto;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+.page {
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_item {
+  width: 80%;
+}
+
+.home_item.list.inset {
+  width: 80%;
+  margin: 0px;
+  margin-left: 10%;
+  padding: 0px;
+}
+
+.login_input {
+  background-color: #3A3A39;
+  margin-bottom: 10%;
+}
+
+.buttons {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+}
+
+.button_input {
+  width: 30% !important;
+}
+
+.button_yellow {
+  background-color: #E8D300 !important;
+  height: 50px;
+  color: #3A3A39;
+}
+
+.button_back {
+  background-color: #3A3A39 !important;
+  height: 50px;
+  color: #ffffff;
+  width: 30% !important;
+}
+
+.attendee {
+  background-color: #3A3A39;
+  color: #ffffff;
+  width: 80%;
+  height: 100%;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+  padding-right: 5%;
+}
+
+.addButton {
+  background-color: #3A3A39;
+  color: #ffffff;
+  border-radius: 100%;
+  width: min-content;
+}
+
+.event-input>input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.button_event {
+  width: 80%;
+  margin: 0px;
+  margin-left: 10%;
+  padding: 0px;
+  top: 25px;
+}
+
+.login_input input::placeholder,
+.login_input input {
+  color: #ffffff !important;
+  text-align: center;
+}
+
+
+.event_input input::placeholder,
+.event_input input {
+  text-align: center;
+}
+
+.event_input input {
+  color: #000000 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.list.inset {
+  margin: 0px;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+.attendeeDiv {
+  display: flex;
+  width: 80%;
+  height: 5%;
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+  margin-bottom: 1px !important;
+}
+
+.addBtnContainer {
+  display: flex;
+  width: 100% !important;
+  list-style-type: none;
+}
+
+.addBtnContainer .event_input {
+  width: 90%;
+}
+
+.removeBt {
+  width: 10%;
+  height: 100%;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #3A3A39;
+  color: #E8D300;
+}
+
+.body {
+  height: 80%;
+}
